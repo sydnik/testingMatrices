@@ -13,13 +13,6 @@ public class TestAssignment {
         fillListFromFormula();
         useFormula();
         String result = findResult();
-        System.out.println(result);
-        for(int y = 0; y<map.get(result).length;y++){
-            for(int x = 0; x <map.get(result)[0].length ;x++) {
-                System.out.print(map.get(result)[y][x]+" ");
-            }
-            System.out.println();
-        }
 
     }
 
@@ -139,7 +132,6 @@ public class TestAssignment {
                                 resultSumming = resultSumming + (matrix1[y][i] * matrix2[i][x]);
 
                             }
-                            System.out.println( resultSumming);
                             result[y][x] = resultSumming;
                         }
 
